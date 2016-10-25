@@ -1,0 +1,24 @@
+<div class="container">
+	<div class="row">
+		<div class="col-xs-6 col-xs-offset-3">
+		<h1><%= form_title %></h1>
+			<%= form_for @product do |f| %>
+				<div class="form-group">
+					<h3 class="text-right">Nombre</h3>
+					<%= f.text_field :name, class: "form-control input-lg", placeholder: "Nombre del Producto" %>
+				</div>
+				<div class="form-group">
+					<h3 class="text-right">Url</h3>
+					<%= f.url_field :url, class: "form-control input-lg", placeholder: "URL del Producto" %>
+				</div>
+				<div class="form-group">
+					<h3 class="text-right">Descripcion</h3>
+					<%= f.text_area :description, class: "form-control input-lg", placeholder: "Descripcion del Producto" %>
+				</div>
+				<div>
+					<%= f.submit form_title, class: "btn btn-success btn-lg btn-center" %>
+				</div>
+			<% end %>
+		</div>
+	</div>
+</div>

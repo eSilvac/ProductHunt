@@ -13,13 +13,17 @@
 					<th>Name</th>
 					<th>URL</th>
 					<th>Description</th>
+					<th></th>
+					<th></th>
 				</tr>
 				<% @products.each do |thing| %>
 					<tr>
 						<td><%= thing.id %></td>
-						<td><%= thing.name %></td>
+						<td><%= link_to thing.name, thing %></td>
 						<td><%= thing.url %></td>
 						<td><%= thing.description %></td>
+						<td><%= link_to "Edit", edit_product_path(thing), class: "btn btn-warning btn-xs" %></td>
+						<td><%= link_to "Delete", delete_product_path(thing), class: "btn btn-danger btn-xs" %></td>
 					</tr>
 				<% end %>
 			</table>
