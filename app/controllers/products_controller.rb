@@ -34,9 +34,9 @@ class ProductsController < ApplicationController
  	end
 
  	def destroy
-		product = Product.find(product_params)
+		product = Product.find(params[:id])
 		product.destroy
-		render :index 		
+		redirect_to products_path, notice: "Producto Eliminado"		
  	end
 
 	private
