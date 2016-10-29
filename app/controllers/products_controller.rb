@@ -1,4 +1,6 @@
 class ProductsController < ApplicationController
+  	before_action :private_access, execpt: [:index, :show]
+
   	def index
   		@products = Product.all
   	end
