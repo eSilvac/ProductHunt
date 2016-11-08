@@ -26,7 +26,8 @@ class ApplicationController < ActionController::Base
     def private_access
       redirect_to :login unless signed_in?
     end
-
+    helper_method :private_access
+    
     def public_access
       if signed_in?
         redirect_to root_path 
