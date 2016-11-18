@@ -1,0 +1,155 @@
+[33mcommit 71e83ed6b5d76f4b6f1ebc62642b1d4367844840[m
+Author: eSilvac <esilva1995@gmail.com>
+Date:   Thu Nov 17 22:06:04 2016 -0500
+
+    Config S3
+
+[33mcommit 17cb5b9d17088eaded94a255101a535355654751[m
+Author: eSilvac <esilva1995@gmail.com>
+Date:   Sat Nov 12 13:01:29 2016 -0500
+
+     Implemento imagenes para productos
+
+[33mcommit d802a7ceea564d395625dd76d2347a96614da943[m
+Merge: e3133c5 d45fe50
+Author: Esteban Silva <esilva1995@gmail.com>
+Date:   Fri Nov 11 15:25:51 2016 -0500
+
+    Merge pull request #6 from eSilvac/votes
+    
+    Se agrega la funcion de votos
+
+[33mcommit d45fe50a7bbd3679b5b78c565e76306ac2c8ae36[m
+Author: eSilvac <esilva1995@gmail.com>
+Date:   Fri Nov 11 15:24:57 2016 -0500
+
+    Se agrega la funcion de votos
+
+[33mcommit e3133c5b724a378a282a3bd850646f00f0abec40[m
+Merge: 185ce15 35cce50
+Author: Esteban Silva <esilva1995@gmail.com>
+Date:   Thu Nov 10 11:27:02 2016 -0500
+
+    Merge pull request #5 from eSilvac/comentarios
+    
+    Comentarios
+
+[33mcommit 35cce504537396a9690de63d522c625b0375197f[m
+Author: eSilvac <esilva1995@gmail.com>
+Date:   Tue Nov 8 00:40:51 2016 -0500
+
+    Implemento los comentarions
+
+[33mcommit ee5caf58c21003c751cdb02118450bada811849e[m
+Author: eSilvac <esilva1995@gmail.com>
+Date:   Mon Nov 7 21:29:34 2016 -0500
+
+    Se agrega asociaciones entre productos y usuarios
+
+[33mcommit 185ce15829576826c1c18e1ec6dc10e7d15e4c64[m
+Merge: f019ea6 8348dc4
+Author: Esteban Silva <esilva1995@gmail.com>
+Date:   Mon Nov 7 20:38:27 2016 -0500
+
+    Merge pull request #4 from eSilvac/validation
+    
+    Validation
+
+[33mcommit 8348dc49f2fe274b7def26e604fc33f862e8fb23[m
+Author: eSilvac <esilva1995@gmail.com>
+Date:   Mon Nov 7 20:26:56 2016 -0500
+
+    Listo el tema de validaciones
+
+[33mcommit 4cf0b93f14ca8ca72e75cef5478e9c7de4d61b45[m
+Author: eSilvac <esilva1995@gmail.com>
+Date:   Mon Nov 7 02:22:06 2016 -0500
+
+    Problemas Con Validacion
+
+[33mcommit f019ea66da86ffff782f8598837400b3aca9186b[m
+Author: eSilvac <esilva1995@gmail.com>
+Date:   Sat Oct 29 17:51:03 2016 -0500
+
+    Se aplican estilos
+
+[33mcommit c308cc1ec21979037cbcbd5dd4c5892fe00db822[m
+Merge: eef1941 d1b15f1
+Author: Esteban Silva <esilva1995@gmail.com>
+Date:   Sat Oct 29 17:03:26 2016 -0500
+
+    Merge pull request #3 from eSilvac/autenticacion
+    
+    Se agregan restriccion y opcion de salir del usuario
+
+[33mcommit d1b15f10d92a3f463890f7ef8537e863b6e7a5e6[m
+Author: eSilvac <esilva1995@gmail.com>
+Date:   Sat Oct 29 17:01:43 2016 -0500
+
+    Se agregan restriccion y opcion de salir del usuario
+
+[33mcommit eef1941ae561cd1c57cea80c5587e82a710d5706[m
+Merge: d2ceba2 5639259
+Author: Esteban Silva <esilva1995@gmail.com>
+Date:   Sat Oct 29 12:20:31 2016 -0500
+
+    Merge pull request #2 from eSilvac/signup
+    
+    Signup
+
+[33mcommit 563925951f119c81e87f11d5a27ddea3de8207c1[m
+Author: eSilvac <esilva1995@gmail.com>
+Date:   Sat Oct 29 12:17:35 2016 -0500
+
+    Creacion de usuarios
+
+[33mcommit 3ce4132e735060365d0da64fa81d5de6f2034a35[m
+Author: eSilvac <esilva1995@gmail.com>
+Date:   Fri Oct 28 20:59:44 2016 -0500
+
+    Aplicando Configuracion Heroku
+
+[33mcommit d2ceba2ed6c686d0487678cdfb94a80bfded6412[m
+Merge: d8dd19c ae3fd83
+Author: Esteban Silva <esilva1995@gmail.com>
+Date:   Tue Oct 25 11:09:25 2016 -0500
+
+    Merge pull request #1 from eSilvac/delete-product
+    
+    Crea ruta delete
+
+[33mcommit ae3fd83ebbb663b01c106ed41898df64a93693d1[m
+Author: eSilvac <esilva1995@gmail.com>
+Date:   Tue Oct 25 11:05:58 2016 -0500
+
+    Crea ruta delete
+
+[33mcommit d8dd19c6e954929853f6b7b87d15aa6be0dea100[m
+Author: eSilvac <esilva1995@gmail.com>
+Date:   Tue Oct 25 10:41:14 2016 -0500
+
+    Grandes Avances
+
+[33mcommit 16d15f95593c04c06937ec565bfd20c803ad5dca[m
+Author: eSilvac <esilva1995@gmail.com>
+Date:   Wed Oct 19 11:50:51 2016 -0500
+
+    Se creo metodo post, y el boton de crear tarea
+
+[33mcommit 7b472c88ee0476c506795f545d40957ce5441e72[m
+Author: eSilvac <esilva1995@gmail.com>
+Date:   Tue Oct 18 12:29:00 2016 -0500
+
+    Creacion ruta /products/new
+
+[33mcommit d1dadada97e7d2d75d108e95c71b60f98b54f77a[m
+Author: eSilvac <esilva1995@gmail.com>
+Date:   Sun Oct 16 19:18:05 2016 -0500
+
+    Creacion modelo y ruta /products
+
+[33mcommit e19862a5f930eec319bb27edc97d6a9e28faae08[m
+Author: eSilvac <esilva1995@gmail.com>
+Date:   Sun Oct 16 13:09:01 2016 -0500
+
+    Primer Commit
